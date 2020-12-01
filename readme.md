@@ -1,3 +1,10 @@
+# Explanation of Fork
+This is a fork of [Leabra](https://github.com/benureau/leabra), to be uploaded for distribution on PyPi. The package is completely unchanged from the original with the exception of the following modifications: 
+  1) The name of the package was changed, so that the original authors may use the original name if they decide to upload to PyPi at some point. 
+  2) This section was added to the readme.
+  3) Several trivial modifications were made to setup.py for compatibility with PyPi.
+  4) The version number was incremented to account for the above listed changes.
+  
 # Leabra
 
 [![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/benureau/leabra/master)  [![Build Status](https://travis-ci.org/benureau/leabra.svg?branch=master)](https://travis-ci.org/benureau/leabra)
