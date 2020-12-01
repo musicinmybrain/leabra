@@ -13,10 +13,11 @@ with open(os.path.join(here, 'readme.md'), encoding='utf-8') as fd:
 
 setuptools.setup(
     name='leabra-psyneulink',
-    version='0.3.1',
+    version='0.3.2',
 
     description='Python implementation of the Leabra algorithm. Forked to package and upload to PyPi.',
-
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/dillontsmith/leabra',
 
     author='Fabien C. Y. Benureau',
